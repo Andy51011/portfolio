@@ -5,3 +5,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#main-content {
+    text-align: center;
+}
