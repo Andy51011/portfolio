@@ -9,8 +9,9 @@ const MainBar = () => {
         picture: "someurl",
         address: "2032 Sandcreek Way, Alameda, CA 94501",
         interests: "Hiking, Biking, and Fishing",
-        skills: "JavaScript, Java, React, HTML, CSS, SpringBoot, Spring",
-        linkedin: "https://www.linkedin.com/in/andy-yuen-6768a8142/"
+        skills: "JavaScript, Java, React, HTML, CSS, SCSS, SpringBoot, Spring",
+        linkedin: "https://www.linkedin.com/in/andy-yuen-6768a8142/",
+        resume: "text"
 
     }
     return (
