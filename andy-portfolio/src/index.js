@@ -2,14 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css"
 import MainBar from "./components/MainBar";
-import BottomBar from "./components/BottomBar";
+import NavigationScroll from "./components/NavigationScroll";
+import MiddleSection from "./components/MiddleSection";
 
 const App = () => {
   return (
-      <div id="main-content">
-        <div><MainBar /></div>
-        <div><BottomBar /></div>
-      </div>
+      <>
+        <NavigationScroll />
+        <MainBar />
+        <MiddleSection />
+      </>
 
   );
 };
