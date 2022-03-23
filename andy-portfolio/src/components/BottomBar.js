@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./BottomBar.css"
 const BottomBar = () => {
     return (
-        <div>
-           <div>My Projects</div>
-           <div>My Purpose</div>
+        <div className="nav-items">
+           <div className="items">My Projects</div>
+           <div className="items">About Me</div>
         </div>
     )
 }

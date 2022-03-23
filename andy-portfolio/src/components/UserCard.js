@@ -1,6 +1,8 @@
 import React from "react";
 import "./userCard.css"
 import portrait from "./background/portrait.jpg"
+import { FaGithub} from "react-icons/fa";
+
 
 const UserCard = ({ myInfo }) => {
   return (
@@ -11,7 +13,7 @@ const UserCard = ({ myInfo }) => {
       <div className="card-info">
         <ul className="list-info">
           <li>{myInfo.name}</li>
-          <li>{myInfo.github}</li>
+          <li>{myInfo.github}<FaGithub /></li>
           <li>{myInfo.address}</li>
           <li>{myInfo.interests}</li>
           <li>{myInfo.skills}</li>
