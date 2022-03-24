@@ -32,18 +32,18 @@ a, a:hover, a:focus, a:active {
     display: inline-block;
     font-size: 55px;
     padding: 15px 12.5px;
-    height: 5px;
+    height: auto;
 }
 
 .card-info {
    flex: 1;
-
+   padding-top: 25px;
 }
 
-  .img-container img {
+.img-container img {
     padding: 5px;
     overflow: hidden;
     border: 10px solid rgb(33, 110, 112);
     height: 160px;
     border-radius: 25%
-  }
+}
