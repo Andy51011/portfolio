@@ -23,13 +23,13 @@ const Contact = () => {
 
   return (
     <div className="form-container">
-      <form
+      <form className="form"
         action={FORM_ENDPOINT}
         onSubmit={handleSubmit}
         method="POST"
         target="_blank"
       >
-        <div>Contact Form</div>
+        <label>Contact</label>
         <div>
           <input type="text" placeholder="Your name" name="name" required />
         </div>

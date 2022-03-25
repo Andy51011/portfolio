@@ -1,14 +1,9 @@
 #project-container {
-    border: solid 1px rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     margin: auto;
     height: 75%;
     background-color: black;
-}
-
-h1 {
-    padding-top: 100px;
 }
 
 .project-item {

@@ -1,22 +1,24 @@
 import React from "react";
 import ProjectList from "./ProjectList";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 const MiddleSection = () => {
   return (
     <>
       <div id="about" style={{ height: 500 }}>
         <h1>About Me</h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-        repellendus. Totam nihil similique a repellat minus dolor amet quasi.
-        Corporis nulla quaerat iste, sed quasi ab dolorem maxime minima animi.
+        <div style={{height: 250}}></div>
       </div>
       <div id="projects" style={{ height: 500 }}>
         <ProjectList />
       </div>
+      <div style={{height: 250}}></div>
       <div id="skills" style={{height: 500}}>
+        <Skills />
       </div>
-      <div id="contact" style={{ height: 500 }}>
+      <div style={{height: 250}}></div>
+      <div id="contact" style={{ height: 300 }}>
         <Contact />
       </div>
     </>
