@@ -1,0 +1,11 @@
+.form-container {
+    border-top: solid 1px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    background-color: black;
+    width:100%;
+    bottom: 0;
+    
+}
