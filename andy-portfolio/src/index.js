@@ -8,7 +8,7 @@ import MiddleSection from "./components/MiddleSection";
 const App = () => {
   return (
       <>
-        <NavigationScroll />
+        <NavigationScroll className="nav-bar"/>
         <MainBar />
         <MiddleSection />
       </>

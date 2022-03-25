@@ -20,15 +20,18 @@ const NavigationScroll = () => {
         </Link>
       </li>
       <li>
+        <Link activeClass="active" to="projects" spy={true} smooth={true}>
+          Skills
+        </Link>
+      </li>
+      <li>
         <Link activeClass="active" to="about" spy={true} smooth={true}>
           About Me
-          <BsPersonCircle className="nav-icons" />
         </Link>
       </li>
       <li>
         <Link activeClass="active" to="contact" spy={true} smooth={true}>
           Contact
-          <RiContactsBook2Line className="nav-icons" />
         </Link>
       </li>
     </ul>

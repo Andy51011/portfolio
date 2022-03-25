@@ -14,6 +14,9 @@ const MiddleSection = () => {
         <h1>My Projects!</h1>
         <ProjectList />
       </div>
+      <div id="skills" style={{height: 500}}>
+        <h1>My Skills!</h1>
+      </div>
       <div id="contact" style={{ height: 500 }}>
         <h1>Contact</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,

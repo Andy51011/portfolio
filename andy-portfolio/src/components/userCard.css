@@ -30,6 +30,7 @@ a, a:hover, a:focus, a:active {
     font-weight: bold;
 }
 
+
 #item-card {
     display: inline-block;
     font-size: 55px;
@@ -48,5 +49,5 @@ a, a:hover, a:focus, a:active {
     overflow: hidden;
     border: 10px solid rgb(33, 110, 112);
     height: 160px;
-    border-radius: 25%
+    border-radius: 25%;
 }

@@ -1,0 +1,12 @@
+#project-container {
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.project-item {
+    border: solid 1px black;
+}

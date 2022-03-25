@@ -1,17 +1,28 @@
 ul {
-    font-size: 35px;
+    font-size: 45px;
     border: solid 1px rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(0, 0, 0, 0.986);
     color: white;
-    padding: 0;
     margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 .nav-icons {
     margin-left: 5px;
     margin-bottom: 5px;
     height: 43px;
-line-height: 43px;
-vertical-align: middle
-    
+    line-height: 43px;
+    vertical-align: middle;
+}
+
+li {
+    transition: 0.7s;
+    padding: 10px;
+}
+
+li:hover {
+    background: rgb(214, 108, 108);
 }
