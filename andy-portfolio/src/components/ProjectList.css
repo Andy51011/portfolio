@@ -1,12 +1,20 @@
 #project-container {
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
-    width: 50%;
-    height: 50%;
+    height: 75%;
+    background-color: black;
+}
+
+h1 {
+    padding-top: 100px;
 }
 
 .project-item {
-    border: solid 1px black;
+    border: solid 7px rgb(243, 230, 230);
+    color: white;
+    width: 25%;
+    margin: 50px;
+    border-radius: 15px;
 }
