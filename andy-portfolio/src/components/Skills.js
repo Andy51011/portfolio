@@ -5,29 +5,36 @@ import { SiJava } from "react-icons/si";
 import { DiReact } from "react-icons/di";
 import { SiSpringboot } from "react-icons/si";
 import { SiHibernate } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
 
 const Skills = () => {
   return (
     <>
-        Skills
-      <div className="skills-container">
-        <div>
-            JavaScript
+      <h1>Skills</h1>
+      <div className="skill-container">
+        <div className="skill-item">
+          JavaScript
           <DiJavascript1 />
         </div>
-        <div>
-            Java
-            <SiJava />
+        <div className="skill-item">
+          Java
+          <SiJava />
         </div>
-        <div>
-            React
-            <DiReact />
+        <div className="skill-item">
+          React
+          <DiReact />
         </div>
-            Springboot
-            <SiSpringboot />
-        <div>
-            Hibernate
-            <SiHibernate />
+        <div className="skill-item">
+          Springboot
+          <SiSpringboot />
+        </div>
+        <div className="skill-item">
+          Hibernate
+          <SiHibernate />
+        </div>
+        <div className="skill-item">
+            PostgreSQL
+            <SiPostgresql />
         </div>
       </div>
     </>

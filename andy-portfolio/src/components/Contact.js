@@ -22,6 +22,8 @@ const Contact = () => {
   }
 
   return (
+      <>
+        <h1>Contact</h1>
     <div className="form-container">
       <form className="form"
         action={FORM_ENDPOINT}
@@ -29,7 +31,6 @@ const Contact = () => {
         method="POST"
         target="_blank"
       >
-        <label>Contact</label>
         <div>
           <input type="text" placeholder="Your name" name="name" required />
         </div>
@@ -44,6 +45,7 @@ const Contact = () => {
         </div>
       </form>
     </div>
+    </>
   );
 };
 
