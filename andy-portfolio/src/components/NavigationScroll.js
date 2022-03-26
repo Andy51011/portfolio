@@ -20,7 +20,7 @@ const NavigationScroll = () => {
         </Link>
       </li>
       <li>
-        <Link activeClass="active" to="projects" spy={true} smooth={true}>
+        <Link activeClass="active" to="skills" spy={true} smooth={true}>
           Skills
         </Link>
       </li>
