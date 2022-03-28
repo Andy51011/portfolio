@@ -17,6 +17,8 @@ h1 {
     width: 15%;
     align-self: center;
     animation: fadeIn linear 2s;
+    margin: .5rem;
+    transition: 0.6s ease-out;
 }
 
 @keyframes fadeIn {
@@ -26,8 +28,7 @@ h1 {
 
 .skill-item:hover {
     color: rgba(255, 32, 32, 0.589);
-    transition: 0.5s;
     text-decoration-line: underline;
-    font-size: 52px;
-    font-weight: lighter;
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
 }

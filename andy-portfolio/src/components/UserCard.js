@@ -11,11 +11,11 @@ const UserCard = ({ myInfo }) => {
   const [linkedin, setLinkedin] = useState(true);
 
   const showIcon = (bool) => {
-      setIsShown(bool);
+    setIsShown(bool);
   };
 
   const showLinkedinIcon = (bool) => {
-      setLinkedin(bool);
+    setLinkedin(bool);
   };
 
   return (
@@ -27,18 +27,30 @@ const UserCard = ({ myInfo }) => {
         <div className="item-name">{myInfo.name}</div>
         <div className="item-name2">Fullstack Developer</div>
         <div id="item-card" className="item-github">
-          <a target="_blank" rel="noreferrer" onMouseEnter={() => showIcon(false)} onMouseLeave={() => showIcon(true)}href={myInfo.github}>
-            {isShown === true ? <FaGithub /> : < FiGithub />}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            onMouseEnter={() => showIcon(false)}
+            onMouseLeave={() => showIcon(true)}
+            href={myInfo.github}
+          >
+            {isShown === true ? <FaGithub /> : <FiGithub />}
           </a>
         </div>
         <div id="item-card" className="item-linkedin">
-          <a target="_blank" rel="noreferrer" onMouseEnter={() => showLinkedinIcon(false)} 
-             onMouseLeave={() => showLinkedinIcon(true)} href={myInfo.linkedin}>
-            {linkedin === true ? <AiFillLinkedin /> : <AiOutlineLinkedin / >}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            onMouseEnter={() => showLinkedinIcon(false)}
+            onMouseLeave={() => showLinkedinIcon(true)}
+            href={myInfo.linkedin}
+          >
+            {linkedin === true ? <AiFillLinkedin /> : <AiOutlineLinkedin />}
           </a>
         </div>
       </div>
-      </>
+      <div>add resume here</div>
+    </>
   );
 };
 
