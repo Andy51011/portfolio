@@ -25,7 +25,7 @@ const UserCard = ({ myInfo }) => {
       </div>
       <div className="card-info">
         <div className="item-name">{myInfo.name}</div>
-        <div className="item-name2">Fullstack Software Engineer</div>
+        <div className="item-name2">Fullstack Developer</div>
         <div id="item-card" className="item-github">
           <a target="_blank" onMouseEnter={() => showIcon(false)} onMouseLeave={() => showIcon(true)}href={myInfo.github}>
             {isShown === true ? <FaGithub /> : < FiGithub />}

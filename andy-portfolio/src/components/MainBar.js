@@ -6,7 +6,6 @@ const MainBar = () => {
   const myInfo = {
     name: "Andy Yuen",
     github: "https://github.com/andy51011",
-    picture: "someurl",
     address: "2032 Sandcreek Way, Alameda, CA 94501",
     interests: "Hiking, Biking, and Fishing",
     skills: "JavaScript, Java, React, HTML, CSS, SCSS, SpringBoot, Spring",
