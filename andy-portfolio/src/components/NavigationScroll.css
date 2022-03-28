@@ -1,13 +1,13 @@
 ul {
     font-size: 45px;
-    border: solid 1px rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.986);
-    color: white;
+    border-bottom: 1px solid black;
+    color: rgb(19, 14, 14);
     margin: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
     overflow: hidden;
+    z-index: 9;
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
 
 .nav-icons {
@@ -19,10 +19,11 @@ ul {
 }
 
 li {
+    font-size: 37.5px;
     transition: 0.7s;
-    padding: 10px;
+    padding: 5px 45px;
 }
 
 li:hover {
-    background: rgb(214, 108, 108);
+    background: #f38c59;
 }

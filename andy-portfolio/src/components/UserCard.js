@@ -19,12 +19,13 @@ const UserCard = ({ myInfo }) => {
   };
 
   return (
-    <div className="card-container">
+    <>
       <div className="img-container">
         <img className="usercard-img" src={portrait} alt="person-icon" />
       </div>
       <div className="card-info">
         <div className="item-name">{myInfo.name}</div>
+        <div className="item-name2">Fullstack Software Engineer</div>
         <div id="item-card" className="item-github">
           <a target="_blank" onMouseEnter={() => showIcon(false)} onMouseLeave={() => showIcon(true)}href={myInfo.github}>
             {isShown === true ? <FaGithub /> : < FiGithub />}
@@ -37,7 +38,7 @@ const UserCard = ({ myInfo }) => {
           </a>
         </div>
       </div>
-    </div>
+      </>
   );
 };
 

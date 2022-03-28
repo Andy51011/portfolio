@@ -18,7 +18,7 @@ const Skills = () => {
   }, []);
 
   const listenToScroll = () => {
-      let heightToShow = 1200;
+      let heightToShow = 1000;
       const winScroll = document.body.scrollTop ||
         document.documentElement.scrollTop;
         if (winScroll > heightToShow) {

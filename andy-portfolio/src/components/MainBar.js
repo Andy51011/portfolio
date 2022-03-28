@@ -14,9 +14,8 @@ const MainBar = () => {
     resume: "text",
   };
   return (
-    <div style={{ height: 500 }} className="center-content">
+    <div style={{ height: 550 }} className="center-content">
       <div className="child">
-        <h1>Welcome To My Portfolio!</h1>
         <UserCard myInfo={myInfo} />
       </div>
     </div>

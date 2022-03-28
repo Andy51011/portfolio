@@ -1,7 +1,13 @@
 .center-content {
+    background-image: url(./background/gray-abstract-wireframe-technology-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 15px;
     display: flex;
+    background-position: center;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
 }
 
 h1 {

@@ -47,7 +47,7 @@ a, a:hover, a:focus, a:active {
 .img-container img {
     padding: 5px;
     overflow: hidden;
-    border: 10px solid rgb(33, 110, 112);
+    border: 10px solid rgb(223, 159, 159);
     height: 160px;
-    border-radius: 25%;
+    border-radius: 60%;
 }

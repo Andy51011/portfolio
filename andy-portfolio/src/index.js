@@ -8,8 +8,8 @@ import MiddleSection from "./components/MiddleSection";
 const App = () => {
   return (
       <>
-        <NavigationScroll className="nav-bar"/>
         <MainBar />
+        <NavigationScroll className="nav-bar"/>
         <MiddleSection />
       </>
 
