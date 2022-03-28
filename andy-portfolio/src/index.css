@@ -1,11 +1,6 @@
 html {
-    /* background: url("./components/background/pixel-art.jpg") no-repeat center center fixed; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #fff
 }
-
 #main-content {
     text-align: center;
 }

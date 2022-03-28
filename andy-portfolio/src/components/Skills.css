@@ -25,7 +25,7 @@ h1 {
   }
 
 .skill-item:hover {
-    color: red;
+    color: rgba(255, 32, 32, 0.589);
     transition: 0.5s;
     text-decoration-line: underline;
     font-size: 52px;

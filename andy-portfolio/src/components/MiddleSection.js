@@ -3,6 +3,7 @@ import ProjectList from "./ProjectList";
 import Contact from "./Contact";
 import Skills from "./Skills";
 import About from "./About.";
+import "./MiddleSection.css";
 
 const MiddleSection = () => {
   return (

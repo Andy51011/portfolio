@@ -27,12 +27,12 @@ const UserCard = ({ myInfo }) => {
         <div className="item-name">{myInfo.name}</div>
         <div className="item-name2">Fullstack Developer</div>
         <div id="item-card" className="item-github">
-          <a target="_blank" onMouseEnter={() => showIcon(false)} onMouseLeave={() => showIcon(true)}href={myInfo.github}>
+          <a target="_blank" rel="noreferrer" onMouseEnter={() => showIcon(false)} onMouseLeave={() => showIcon(true)}href={myInfo.github}>
             {isShown === true ? <FaGithub /> : < FiGithub />}
           </a>
         </div>
         <div id="item-card" className="item-linkedin">
-          <a target="_blank" onMouseEnter={() => showLinkedinIcon(false)} 
+          <a target="_blank" rel="noreferrer" onMouseEnter={() => showLinkedinIcon(false)} 
              onMouseLeave={() => showLinkedinIcon(true)} href={myInfo.linkedin}>
             {linkedin === true ? <AiFillLinkedin /> : <AiOutlineLinkedin / >}
           </a>
