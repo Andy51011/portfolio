@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import resume from "./resume/AndyYuenResume.pdf";
 
 const UserCard = ({ myInfo }) => {
   const [isShown, setIsShown] = useState(true);
@@ -49,7 +50,9 @@ const UserCard = ({ myInfo }) => {
           </a>
         </div>
       </div>
-      <div>add resume here</div>
+      <div>
+        <a target="_blank" rel="noreferrer" href={resume}> Check out my resume!</a>
+      </div>
     </>
   );
 };
