@@ -23,11 +23,11 @@
 }
 
 .about-item:hover {
-    transform: translateX(-500px);
+    transform: translateX(-250px);
     transition: all 2s ease;
 }
 
 .about-item-two:hover {
-    transform :translateX(500px);
+    transform :translateX(250px);
     transition: all 2s ease;
 }
