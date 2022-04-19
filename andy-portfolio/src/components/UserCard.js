@@ -50,7 +50,7 @@ const UserCard = ({ myInfo }) => {
           </a>
         </div>
       </div>
-      <div>
+      <div id="resume_link">
         <a target="_blank" rel="noreferrer" href={resume}> Check out my resume!</a>
       </div>
     </>

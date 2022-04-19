@@ -51,3 +51,12 @@ a, a:hover, a:focus, a:active {
     height: 160px;
     border-radius: 60%;
 }
+
+#resume_link {
+    font-size: 16px;
+}
+
+#resume_link:hover {
+    font-weight: bold;
+    color: blue;
+}
