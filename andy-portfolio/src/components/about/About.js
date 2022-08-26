@@ -4,7 +4,7 @@ import "./About.css";
 import { GiBoatFishing } from "react-icons/gi";
 import { FaBrain } from "react-icons/fa";
 import { BsBuilding } from "react-icons/bs";
-import { AiOutlineFormatPainter } from "react-icons/ai"; 
+import { AiOutlineFormatPainter } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -24,7 +24,7 @@ const About = () => {
           Problem Solving
         </div>
         <div className="about-item-two">
-         <GiBoatFishing className="icon-fish" />
+          <GiBoatFishing className="icon-fish" />
           Advid hiker and fisherman
         </div>
       </div>

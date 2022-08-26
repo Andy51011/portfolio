@@ -13,8 +13,8 @@ const MainBar = () => {
     resume: "text",
   };
   return (
-    <div style={{ height: 550 }} className="center-content">
-      <div className="child">
+    <div className="center__container">
+      <div className="center__card">
         <UserCard myInfo={myInfo} />
       </div>
     </div>

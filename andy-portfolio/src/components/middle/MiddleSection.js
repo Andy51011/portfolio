@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectList from "./ProjectList";
-import Contact from "./Contact";
+import Contact from "../contact/Contact";
 import Skills from "./Skills";
-import About from "./About.";
+import About from "../about/About";
 import "./MiddleSection.css";
 
 const MiddleSection = () => {

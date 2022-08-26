@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./userCard.css";
-import portrait from "./background/portrait.jpg";
+import portrait from "../background/portrait.jpg";
 import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import resume from "./resume/AndyYuenResume.pdf";
+import resume from "../resume/AndyYuenResume.pdf";
 
 const UserCard = ({ myInfo }) => {
   const [isShown, setIsShown] = useState(true);
@@ -24,10 +24,10 @@ const UserCard = ({ myInfo }) => {
       <div className="img-container">
         <img className="usercard-img" src={portrait} alt="person-icon" />
       </div>
-      <div className="card-info">
-        <div className="item-name">{myInfo.name}</div>
-        <div className="item-name2">Fullstack Developer</div>
-        <div id="item-card" className="item-github">
+      <div className="card__container">
+        <div className="card__item">{myInfo.name}</div>
+        <div className="card__item">Fullstack Developer</div>
+        <div id="item__card" className="card__item">
           <a
             target="_blank"
             rel="noreferrer"
@@ -38,7 +38,7 @@ const UserCard = ({ myInfo }) => {
             {isShown === true ? <FaGithub /> : <FiGithub />}
           </a>
         </div>
-        <div id="item-card" className="item-linkedin">
+        <div id="item__card" className="card__item">
           <a
             target="_blank"
             rel="noreferrer"
@@ -50,8 +50,11 @@ const UserCard = ({ myInfo }) => {
           </a>
         </div>
       </div>
-      <div id="resume_link">
-        <a target="_blank" rel="noreferrer" href={resume}> Check out my resume!</a>
+      <div id="resume_link" className="card__item">
+        <a target="_blank" rel="noreferrer" href={resume}>
+          {" "}
+          Check out my resume!
+        </a>
       </div>
     </>
   );

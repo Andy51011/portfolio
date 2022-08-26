@@ -1,30 +1,18 @@
 ul {
-    font-size: 45px;
-    border-bottom: 1px solid black;
-    color: rgb(19, 14, 14);
-    margin: 0;
-    overflow: hidden;
-    z-index: 9;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    margin: 15px;
-}
-
-.nav-icons {
-    margin-left: 5px;
-    margin-bottom: 5px;
-    height: 43px;
-    line-height: 43px;
-    vertical-align: middle;
+  font-size: 2.5rem;
+  background-color: rgba(39, 39, 39, 0.973);
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  float: left;
+  list-style: none;
+  justify-content: space-evenly;
 }
 
 li {
-    font-size: 37.5px;
-    transition: 0.7s;
-    padding: 5px 45px;
+  transition: 0.7s;
 }
 
 li:hover {
-    background: rgba(255, 32, 32, 0.589);
+  background: rgba(255, 32, 32, 0.589);
 }

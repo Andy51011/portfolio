@@ -1,9 +1,7 @@
 import React from "react";
 import "./NavigationScroll.css";
 import { Link } from "react-scroll";
-import { GrGamepad } from "react-icons/gr";
-import { BsPersonCircle } from "react-icons/bs";
-import { RiContactsBook2Line } from "react-icons/ri";
+
 const NavigationScroll = () => {
   return (
     <ul>
