@@ -8,9 +8,9 @@ import MiddleSection from "./components/middle/MiddleSection";
 const App = () => {
   return (
     <>
-      <NavigationScroll className="nav-bar" />
-      <MainBar />
-      <MiddleSection />
+      <NavigationScroll className="main__nav" />
+      <MainBar className="main__top" />
+      <MiddleSection className="main__bot" />
     </>
   );
 };

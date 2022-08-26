@@ -1,18 +1,27 @@
 ul {
-  font-size: 2.5rem;
-  background-color: rgba(39, 39, 39, 0.973);
+  font-size: 1.5rem;
+  background-color: #252525;
   margin: 0;
-  overflow: hidden;
   display: flex;
-  float: left;
+  flex-direction: column;
   list-style: none;
   justify-content: space-evenly;
+  z-index: 1;
+  position: fixed;
+  height: 50%;
+  top: 25%;
+  left: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 li {
   transition: 0.7s;
+  border: 1px thin white;
+  padding: 1.45rem;
+  color: aliceblue;
 }
 
 li:hover {
-  background: rgba(255, 32, 32, 0.589);
+  background: rgb(16, 192, 227);
 }

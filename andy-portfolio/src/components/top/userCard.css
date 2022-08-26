@@ -35,7 +35,7 @@ a:active {
 .img-container img {
   padding: 5px;
   overflow: hidden;
-  border: 10px solid rgba(255, 32, 32, 0.589);
+  border: 10px solid rgb(16, 192, 227);
   height: 160px;
   border-radius: 60%;
 }

@@ -1,9 +1,6 @@
 .center__container {
   background-color: #252525;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   display: flex;
-  background-position: center;
   justify-content: center;
   align-items: center;
   height: 100vh;
