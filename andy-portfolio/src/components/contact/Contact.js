@@ -30,7 +30,6 @@ const Contact = () => {
   } else {
     return (
       <>
-        <h1>Contact</h1>
         <div className="form-container">
           <form
             className="form"

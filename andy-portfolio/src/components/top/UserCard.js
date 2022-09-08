@@ -49,12 +49,12 @@ const UserCard = ({ myInfo }) => {
             {linkedin === true ? <AiFillLinkedin /> : <AiOutlineLinkedin />}
           </a>
         </div>
-      </div>
-      <div id="resume_link" className="card__item">
-        <a target="_blank" rel="noreferrer" href={resume}>
-          {" "}
-          Check out my resume!
-        </a>
+        <div id="resume_link" className="card__item">
+          <a target="_blank" rel="noreferrer" href={resume}>
+            {" "}
+            Check out my resume!
+          </a>
+        </div>
       </div>
     </>
   );

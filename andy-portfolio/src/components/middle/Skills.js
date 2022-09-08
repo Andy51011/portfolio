@@ -11,56 +11,56 @@ const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-      window.addEventListener("scroll", listenToScroll);
-      // clean up
-      return () => 
-      window.removeEventListener("scroll", listenToScroll);
+    window.addEventListener("scroll", listenToScroll);
+    // clean up
+    return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
   const listenToScroll = () => {
-      let heightToShow = 1000;
-      const winScroll = document.body.scrollTop ||
-        document.documentElement.scrollTop;
-        if (winScroll > heightToShow) {
-            setIsVisible(true);
-        } else {
-            setIsVisible(false);
-        }
-  }
-
+    let heightToShow = 1000;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    if (winScroll > heightToShow) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
   return (
     <>
-      <h1>My Main Skills Are</h1>
-      <div className="skill-container">
-        {isVisible && (
-          <>
-            <div className={"skill-item"}>
-              JavaScript
-              <DiJavascript1 />
-            </div>
-            <div className="skill-item">
-              Java
-              <SiJava />
-            </div>
-            <div className="skill-item">
-              React
-              <DiReact />
-            </div>
-            <div className="skill-item">
-              Springboot
-              <SiSpringboot />
-            </div>
-            <div className="skill-item">
-              Hibernate
-              <SiHibernate />
-            </div>
-            <div className="skill-item">
-              PostgreSQL
-              <SiPostgresql />
-            </div>
-          </>
-        )}
+      <div className="skill__container">
+        <div className="skill__title">My Skills</div>
+        <div className="skill-container">
+          {isVisible && (
+            <>
+              <div className={"skill-item"}>
+                JavaScript
+                <DiJavascript1 />
+              </div>
+              <div className="skill-item">
+                Java
+                <SiJava />
+              </div>
+              <div className="skill-item">
+                React
+                <DiReact />
+              </div>
+              <div className="skill-item">
+                Springboot
+                <SiSpringboot />
+              </div>
+              <div className="skill-item">
+                Hibernate
+                <SiHibernate />
+              </div>
+              <div className="skill-item">
+                PostgreSQL
+                <SiPostgresql />
+              </div>
+            </>
+          )}
+        </div>
       </div>
     </>
   );

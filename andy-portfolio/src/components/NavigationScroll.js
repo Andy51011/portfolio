@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./NavigationScroll.css";
 import { Link } from "react-scroll";
 
 const NavigationScroll = () => {
+  const [scrollPosition, setScrollPosition] = useState(false);
+
+  useEffect(() => {
+    const updatePosition = () => {
+      setScrollPosition(window.pageYOffset);
+    };
+    window.addEventListener("scroll", updatePosition);
+    updatePosition();
+    return () => window.removeEventListener("scroll", updatePosition);
+  }, []);
+
+  console.log(scrollPosition);
+
   return (
-    <ul>
+    <ul className={scrollPosition < 191 ? "nav__side" : "nav__top"}>
       <li>
         <Link activeClass="active" to="projects" spy={true} smooth={true}>
           Projects

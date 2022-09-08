@@ -1,6 +1,5 @@
 #about-container {
-  width: 500px;
-  padding: 20px 30px;
+  width: 35%;
   background-color: rgb(255, 231, 231, 0.3);
   display: flex;
   flex-direction: column;
@@ -8,17 +7,17 @@
 }
 
 #title {
-  font-size: 35px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .about-item {
-  font-size: 2rem;
+  font-size: 1.5rem;
   transition: all 2s ease;
 }
 
 .about-item-two {
-  font-size: 2rem;
+  font-size: 1.5rem;
   transition: all 2s ease;
 }
 
